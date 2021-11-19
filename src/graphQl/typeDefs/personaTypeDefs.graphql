@@ -1,0 +1,22 @@
+
+type Pruebas {
+  id: ID
+  name: String
+  description: String
+  nota: Int
+}
+input PersonaInput {
+  name: String!
+  lastName: String!
+  identification: String!
+  age: Int
+}
+type Persona {
+  _id: ID
+  name: String!
+  lastName: String!
+  identification: String!
+  age: Int
+  createdAt: String
+  updatedAt: String
+}
